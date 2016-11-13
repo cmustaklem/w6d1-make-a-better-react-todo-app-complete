@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.list-group-item {
+  span {
+    display: inline-block;
+    margin-left: 20px;
+  }
+}
+
+.text-done {
+  text-decoration: line-through;
+}
+
+.header {
+    background-color: rgb(84, 62, 19);
+    color: white;
+    padding-bottom: 24px;
+    padding-top: 16px;
+}
