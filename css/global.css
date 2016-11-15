@@ -1,0 +1,22 @@
+header {
+  background-color: #777777;
+  color: white;
+  padding-bottom: 10px;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(0deg, #1796B9, #B2F3FA);
+}
+
+.tabletop {
+  margin-top: 9px;
+}
+
+.theOrder {
+  display: inline-block;
+}
+
+.list-group-item .checkboxMargin {
+  margin-right: 5px;
+}
