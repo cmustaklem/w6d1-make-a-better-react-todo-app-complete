@@ -8,7 +8,7 @@ class Todos extends Component {
         this.enter = this.enter.bind(this)
         this.click = this.click.bind(this)
         this.markDone = this.markDone.bind(this)
-            //typing, enter, click, markDone are all methods that give give direction for the app on what to do when the user does a specific action. The user can type, press the Add button, press enter to add something to the to do list, and they can also mark a todo list item as done.
+            //typing, enter, click, markDone are all methods that give give direction for the app on what to do when the user does a specific action. The user can type, click the Add button, press Enter to add something to the to do list, and they can also mark a todo list item as done.
         this.state = {
             newTodo: '',
             todos: []
@@ -80,5 +80,5 @@ class Todos extends Component {
             </ul>
             </div>
         }}
-//I am returning a row that has a column for the input field and the todo list. {this.state.newTodo} is an empty string, and the onChange is pulling in the typing method. {this.state.newTodo} is used as the button value because it is clearing out the input field after pushing the data into the todo list. onClick has a value of {this.click} and because it is using the click method. 
+//I am returning a row that has a column for the input field and the todo list. {this.state.newTodo} is an empty string, and the onChange is pulling in the typing method. {this.state.newTodo} is used as the button value because it is clearing out the input field after pushing the data into the todo list. onClick has a value of {this.click} and because it is using the click method.
 export default Todos
