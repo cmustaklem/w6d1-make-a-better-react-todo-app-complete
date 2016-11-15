@@ -20,3 +20,7 @@ body {
 .list-group-item .checkboxMargin {
   margin-right: 5px;
 }
+
+.text-done {
+  text-decoration: line-through;
+}
